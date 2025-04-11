@@ -19,15 +19,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/CMakeRCInformation.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake"
-  "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/CPack.cmake"
-  "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/CPackComponent.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU-C.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU.cmake"
-  "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake"
-  "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake"
-  "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindPackageMessage.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-C.cmake"
@@ -38,13 +33,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/WindowsPaths.cmake"
   "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/ProcessorCount.cmake"
-  "C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Templates/CPackConfig.cmake.in"
   "../CMakeLists.txt"
   "CMakeFiles/3.16.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeRCCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeSystem.cmake"
-  "../version.h.in"
   )
 
 # The corresponding makefile is:
@@ -55,15 +48,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "version.h"
-  "CPackConfig.cmake"
-  "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/helloworld_cli.dir/DependInfo.cmake"
-  "CMakeFiles/helloworld.dir/DependInfo.cmake"
-  "CMakeFiles/test_version.dir/DependInfo.cmake"
+  "CMakeFiles/SmallTasks.dir/DependInfo.cmake"
   )

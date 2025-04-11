@@ -1,12 +1,5 @@
-C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld_cli.dir
-C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/package_source.dir
-C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld.dir
-C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/test_version.dir
+C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/SmallTasks.dir
 C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/package.dir
-C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/package_source.dir
 C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/list_install_components.dir
-C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/install/local.dir
-C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/install.dir
-C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/install/strip.dir
+C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir

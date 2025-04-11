@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Faceecreep/Otus_Homework/Task2100.cpp
+Task2100.h
+C:/Users/Faceecreep/Otus_Homework/Task2100.h
+iostream
+-
+
+C:/Users/Faceecreep/Otus_Homework/Task2100.h
+

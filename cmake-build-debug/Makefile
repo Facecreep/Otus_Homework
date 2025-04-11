@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\Users\Faceecreep\Otus_Homework\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
-
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
@@ -77,27 +66,16 @@ package/fast: package
 
 .PHONY : package/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CPackSourceConfig.cmake
+.PHONY : package_source
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
+# Special rule for the target package_source
+package_source/fast: package_source
 
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\ctest.exe" --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
+.PHONY : package_source/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -110,51 +88,16 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
 
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -189,70 +132,422 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named helloworld_cli
+# Target rules for targets named SmallTasks
 
 # Build rule for target.
-helloworld_cli: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 helloworld_cli
-.PHONY : helloworld_cli
+SmallTasks: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SmallTasks
+.PHONY : SmallTasks
 
 # fast build rule for target.
-helloworld_cli/fast:
-	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/build
-.PHONY : helloworld_cli/fast
+SmallTasks/fast:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/build
+.PHONY : SmallTasks/fast
 
-#=============================================================================
-# Target rules for targets named helloworld
+Task1000.obj: Task1000.cpp.obj
 
-# Build rule for target.
-helloworld: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 helloworld
-.PHONY : helloworld
-
-# fast build rule for target.
-helloworld/fast:
-	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/build
-.PHONY : helloworld/fast
-
-#=============================================================================
-# Target rules for targets named test_version
-
-# Build rule for target.
-test_version: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 test_version
-.PHONY : test_version
-
-# fast build rule for target.
-test_version/fast:
-	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/build
-.PHONY : test_version/fast
-
-lib.obj: lib.cpp.obj
-
-.PHONY : lib.obj
+.PHONY : Task1000.obj
 
 # target to build an object file
-lib.cpp.obj:
-	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/lib.cpp.obj
-.PHONY : lib.cpp.obj
+Task1000.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1000.cpp.obj
+.PHONY : Task1000.cpp.obj
 
-lib.i: lib.cpp.i
+Task1000.i: Task1000.cpp.i
 
-.PHONY : lib.i
+.PHONY : Task1000.i
 
 # target to preprocess a source file
-lib.cpp.i:
-	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/lib.cpp.i
-.PHONY : lib.cpp.i
+Task1000.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1000.cpp.i
+.PHONY : Task1000.cpp.i
 
-lib.s: lib.cpp.s
+Task1000.s: Task1000.cpp.s
 
-.PHONY : lib.s
+.PHONY : Task1000.s
 
 # target to generate assembly for a file
-lib.cpp.s:
-	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/lib.cpp.s
-.PHONY : lib.cpp.s
+Task1000.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1000.cpp.s
+.PHONY : Task1000.cpp.s
+
+Task1001.obj: Task1001.cpp.obj
+
+.PHONY : Task1001.obj
+
+# target to build an object file
+Task1001.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1001.cpp.obj
+.PHONY : Task1001.cpp.obj
+
+Task1001.i: Task1001.cpp.i
+
+.PHONY : Task1001.i
+
+# target to preprocess a source file
+Task1001.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1001.cpp.i
+.PHONY : Task1001.cpp.i
+
+Task1001.s: Task1001.cpp.s
+
+.PHONY : Task1001.s
+
+# target to generate assembly for a file
+Task1001.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1001.cpp.s
+.PHONY : Task1001.cpp.s
+
+Task1197.obj: Task1197.cpp.obj
+
+.PHONY : Task1197.obj
+
+# target to build an object file
+Task1197.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1197.cpp.obj
+.PHONY : Task1197.cpp.obj
+
+Task1197.i: Task1197.cpp.i
+
+.PHONY : Task1197.i
+
+# target to preprocess a source file
+Task1197.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1197.cpp.i
+.PHONY : Task1197.cpp.i
+
+Task1197.s: Task1197.cpp.s
+
+.PHONY : Task1197.s
+
+# target to generate assembly for a file
+Task1197.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1197.cpp.s
+.PHONY : Task1197.cpp.s
+
+Task1264.obj: Task1264.cpp.obj
+
+.PHONY : Task1264.obj
+
+# target to build an object file
+Task1264.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1264.cpp.obj
+.PHONY : Task1264.cpp.obj
+
+Task1264.i: Task1264.cpp.i
+
+.PHONY : Task1264.i
+
+# target to preprocess a source file
+Task1264.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1264.cpp.i
+.PHONY : Task1264.cpp.i
+
+Task1264.s: Task1264.cpp.s
+
+.PHONY : Task1264.s
+
+# target to generate assembly for a file
+Task1264.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1264.cpp.s
+.PHONY : Task1264.cpp.s
+
+Task1293.obj: Task1293.cpp.obj
+
+.PHONY : Task1293.obj
+
+# target to build an object file
+Task1293.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1293.cpp.obj
+.PHONY : Task1293.cpp.obj
+
+Task1293.i: Task1293.cpp.i
+
+.PHONY : Task1293.i
+
+# target to preprocess a source file
+Task1293.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1293.cpp.i
+.PHONY : Task1293.cpp.i
+
+Task1293.s: Task1293.cpp.s
+
+.PHONY : Task1293.s
+
+# target to generate assembly for a file
+Task1293.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1293.cpp.s
+.PHONY : Task1293.cpp.s
+
+Task1409.obj: Task1409.cpp.obj
+
+.PHONY : Task1409.obj
+
+# target to build an object file
+Task1409.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1409.cpp.obj
+.PHONY : Task1409.cpp.obj
+
+Task1409.i: Task1409.cpp.i
+
+.PHONY : Task1409.i
+
+# target to preprocess a source file
+Task1409.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1409.cpp.i
+.PHONY : Task1409.cpp.i
+
+Task1409.s: Task1409.cpp.s
+
+.PHONY : Task1409.s
+
+# target to generate assembly for a file
+Task1409.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1409.cpp.s
+.PHONY : Task1409.cpp.s
+
+Task1785.obj: Task1785.cpp.obj
+
+.PHONY : Task1785.obj
+
+# target to build an object file
+Task1785.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1785.cpp.obj
+.PHONY : Task1785.cpp.obj
+
+Task1785.i: Task1785.cpp.i
+
+.PHONY : Task1785.i
+
+# target to preprocess a source file
+Task1785.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1785.cpp.i
+.PHONY : Task1785.cpp.i
+
+Task1785.s: Task1785.cpp.s
+
+.PHONY : Task1785.s
+
+# target to generate assembly for a file
+Task1785.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1785.cpp.s
+.PHONY : Task1785.cpp.s
+
+Task1787.obj: Task1787.cpp.obj
+
+.PHONY : Task1787.obj
+
+# target to build an object file
+Task1787.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1787.cpp.obj
+.PHONY : Task1787.cpp.obj
+
+Task1787.i: Task1787.cpp.i
+
+.PHONY : Task1787.i
+
+# target to preprocess a source file
+Task1787.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1787.cpp.i
+.PHONY : Task1787.cpp.i
+
+Task1787.s: Task1787.cpp.s
+
+.PHONY : Task1787.s
+
+# target to generate assembly for a file
+Task1787.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1787.cpp.s
+.PHONY : Task1787.cpp.s
+
+Task1820.obj: Task1820.cpp.obj
+
+.PHONY : Task1820.obj
+
+# target to build an object file
+Task1820.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1820.cpp.obj
+.PHONY : Task1820.cpp.obj
+
+Task1820.i: Task1820.cpp.i
+
+.PHONY : Task1820.i
+
+# target to preprocess a source file
+Task1820.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1820.cpp.i
+.PHONY : Task1820.cpp.i
+
+Task1820.s: Task1820.cpp.s
+
+.PHONY : Task1820.s
+
+# target to generate assembly for a file
+Task1820.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1820.cpp.s
+.PHONY : Task1820.cpp.s
+
+Task1877.obj: Task1877.cpp.obj
+
+.PHONY : Task1877.obj
+
+# target to build an object file
+Task1877.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1877.cpp.obj
+.PHONY : Task1877.cpp.obj
+
+Task1877.i: Task1877.cpp.i
+
+.PHONY : Task1877.i
+
+# target to preprocess a source file
+Task1877.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1877.cpp.i
+.PHONY : Task1877.cpp.i
+
+Task1877.s: Task1877.cpp.s
+
+.PHONY : Task1877.s
+
+# target to generate assembly for a file
+Task1877.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1877.cpp.s
+.PHONY : Task1877.cpp.s
+
+Task1880.obj: Task1880.cpp.obj
+
+.PHONY : Task1880.obj
+
+# target to build an object file
+Task1880.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1880.cpp.obj
+.PHONY : Task1880.cpp.obj
+
+Task1880.i: Task1880.cpp.i
+
+.PHONY : Task1880.i
+
+# target to preprocess a source file
+Task1880.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1880.cpp.i
+.PHONY : Task1880.cpp.i
+
+Task1880.s: Task1880.cpp.s
+
+.PHONY : Task1880.s
+
+# target to generate assembly for a file
+Task1880.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task1880.cpp.s
+.PHONY : Task1880.cpp.s
+
+Task2001.obj: Task2001.cpp.obj
+
+.PHONY : Task2001.obj
+
+# target to build an object file
+Task2001.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2001.cpp.obj
+.PHONY : Task2001.cpp.obj
+
+Task2001.i: Task2001.cpp.i
+
+.PHONY : Task2001.i
+
+# target to preprocess a source file
+Task2001.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2001.cpp.i
+.PHONY : Task2001.cpp.i
+
+Task2001.s: Task2001.cpp.s
+
+.PHONY : Task2001.s
+
+# target to generate assembly for a file
+Task2001.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2001.cpp.s
+.PHONY : Task2001.cpp.s
+
+Task2012.obj: Task2012.cpp.obj
+
+.PHONY : Task2012.obj
+
+# target to build an object file
+Task2012.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2012.cpp.obj
+.PHONY : Task2012.cpp.obj
+
+Task2012.i: Task2012.cpp.i
+
+.PHONY : Task2012.i
+
+# target to preprocess a source file
+Task2012.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2012.cpp.i
+.PHONY : Task2012.cpp.i
+
+Task2012.s: Task2012.cpp.s
+
+.PHONY : Task2012.s
+
+# target to generate assembly for a file
+Task2012.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2012.cpp.s
+.PHONY : Task2012.cpp.s
+
+Task2066.obj: Task2066.cpp.obj
+
+.PHONY : Task2066.obj
+
+# target to build an object file
+Task2066.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2066.cpp.obj
+.PHONY : Task2066.cpp.obj
+
+Task2066.i: Task2066.cpp.i
+
+.PHONY : Task2066.i
+
+# target to preprocess a source file
+Task2066.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2066.cpp.i
+.PHONY : Task2066.cpp.i
+
+Task2066.s: Task2066.cpp.s
+
+.PHONY : Task2066.s
+
+# target to generate assembly for a file
+Task2066.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2066.cpp.s
+.PHONY : Task2066.cpp.s
+
+Task2100.obj: Task2100.cpp.obj
+
+.PHONY : Task2100.obj
+
+# target to build an object file
+Task2100.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2100.cpp.obj
+.PHONY : Task2100.cpp.obj
+
+Task2100.i: Task2100.cpp.i
+
+.PHONY : Task2100.i
+
+# target to preprocess a source file
+Task2100.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2100.cpp.i
+.PHONY : Task2100.cpp.i
+
+Task2100.s: Task2100.cpp.s
+
+.PHONY : Task2100.s
+
+# target to generate assembly for a file
+Task2100.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/Task2100.cpp.s
+.PHONY : Task2100.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -260,7 +555,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -269,7 +564,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -278,35 +573,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\SmallTasks.dir\build.make CMakeFiles/SmallTasks.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-test_version.obj: test_version.cpp.obj
-
-.PHONY : test_version.obj
-
-# target to build an object file
-test_version.cpp.obj:
-	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/test_version.cpp.obj
-.PHONY : test_version.cpp.obj
-
-test_version.i: test_version.cpp.i
-
-.PHONY : test_version.i
-
-# target to preprocess a source file
-test_version.cpp.i:
-	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/test_version.cpp.i
-.PHONY : test_version.cpp.i
-
-test_version.s: test_version.cpp.s
-
-.PHONY : test_version.s
-
-# target to generate assembly for a file
-test_version.cpp.s:
-	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/test_version.cpp.s
-.PHONY : test_version.cpp.s
 
 # Help Target
 help:
@@ -314,27 +582,59 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... helloworld_cli
-	@echo ... package_source
-	@echo ... helloworld
-	@echo ... test_version
+	@echo ... SmallTasks
 	@echo ... package
-	@echo ... rebuild_cache
-	@echo ... test
+	@echo ... package_source
 	@echo ... edit_cache
-	@echo ... list_install_components
-	@echo ... install/local
-	@echo ... install
-	@echo ... install/strip
-	@echo ... lib.obj
-	@echo ... lib.i
-	@echo ... lib.s
+	@echo ... rebuild_cache
+	@echo ... Task1000.obj
+	@echo ... Task1000.i
+	@echo ... Task1000.s
+	@echo ... Task1001.obj
+	@echo ... Task1001.i
+	@echo ... Task1001.s
+	@echo ... Task1197.obj
+	@echo ... Task1197.i
+	@echo ... Task1197.s
+	@echo ... Task1264.obj
+	@echo ... Task1264.i
+	@echo ... Task1264.s
+	@echo ... Task1293.obj
+	@echo ... Task1293.i
+	@echo ... Task1293.s
+	@echo ... Task1409.obj
+	@echo ... Task1409.i
+	@echo ... Task1409.s
+	@echo ... Task1785.obj
+	@echo ... Task1785.i
+	@echo ... Task1785.s
+	@echo ... Task1787.obj
+	@echo ... Task1787.i
+	@echo ... Task1787.s
+	@echo ... Task1820.obj
+	@echo ... Task1820.i
+	@echo ... Task1820.s
+	@echo ... Task1877.obj
+	@echo ... Task1877.i
+	@echo ... Task1877.s
+	@echo ... Task1880.obj
+	@echo ... Task1880.i
+	@echo ... Task1880.s
+	@echo ... Task2001.obj
+	@echo ... Task2001.i
+	@echo ... Task2001.s
+	@echo ... Task2012.obj
+	@echo ... Task2012.i
+	@echo ... Task2012.s
+	@echo ... Task2066.obj
+	@echo ... Task2066.i
+	@echo ... Task2066.s
+	@echo ... Task2100.obj
+	@echo ... Task2100.i
+	@echo ... Task2100.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... test_version.obj
-	@echo ... test_version.i
-	@echo ... test_version.s
 .PHONY : help
 
 
