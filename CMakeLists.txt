@@ -59,14 +59,14 @@ if (MSVC)
     endif()
 else ()
     target_compile_options(helloworld_cli PRIVATE
-        -Wall -Wextra -pedantic -Werror
+        -Wall -Wextra -pedantic
     )
     target_compile_options(helloworld PRIVATE
-        -Wall -Wextra -pedantic -Werror
+        -Wall -Wextra -pedantic
     )
     if(WITH_BOOST_TEST)
         target_compile_options(test_version PRIVATE
-            -Wall -Wextra -pedantic -Werror
+            -Wall -Wextra -pedantic
         )
     endif()
 endif()

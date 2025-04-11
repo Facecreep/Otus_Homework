@@ -1,0 +1,2 @@
+C:\Apps\MinGW\bin\ar.exe qc libhelloworld.a  CMakeFiles/helloworld.dir/lib.cpp.obj
+C:\Apps\MinGW\bin\ranlib.exe libhelloworld.a
