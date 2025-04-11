@@ -20,18 +20,71 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="helloworld" targetName="helloworld" />
-      <config projectName="helloworld" targetName="helloworld_cli" />
-      <config projectName="helloworld" targetName="test_version" />
+      <config projectName="SmallTasks" targetName="SmallTasks" />
     </generated>
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true">
+  <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcc97ff-5d1a-417e-9bba-1b7cbd85789f" name="Default Changelist" comment="" />
+    <list default="true" id="f20ce818-1f3f-4eba-b246-25bbdb6a5d90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Task1820.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1820.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1880.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1880.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2012.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2012.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2066.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2066.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2100.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2100.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,52 +97,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2vaid4OwvC6Gx5Ep4EfJ4sKQI03" />
+  <component name="ProjectId" id="2vMpndP2nT4HGaMxseH4gtKjVAg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="CMake Application.helloworld_cli">
-    <configuration name="test_version" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="helloworld" TARGET_NAME="test_version" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="helloworld" RUN_TARGET_NAME="test_version" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="helloworld" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="helloworld" TARGET_NAME="helloworld" CONFIG_NAME="Debug">
+  <component name="RunManager">
+    <configuration name="SmallTasks" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SmallTasks" TARGET_NAME="SmallTasks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SmallTasks" RUN_TARGET_NAME="SmallTasks">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helloworld_cli" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="helloworld" TARGET_NAME="helloworld_cli" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="helloworld" RUN_TARGET_NAME="helloworld_cli">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Boost.Test.test_version" />
-      <item itemvalue="CMake Application.helloworld" />
-      <item itemvalue="CMake Application.helloworld_cli" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fbcc97ff-5d1a-417e-9bba-1b7cbd85789f" name="Default Changelist" comment="" />
-      <created>1744389669714</created>
+      <changelist id="f20ce818-1f3f-4eba-b246-25bbdb6a5d90" name="Default Changelist" comment="" />
+      <created>1743964965019</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744389669714</updated>
-      <workItem from="1744389672032" duration="1138000" />
+      <updated>1743964965019</updated>
+      <workItem from="1743964966790" duration="7219000" />
+      <workItem from="1744389632982" duration="36000" />
+      <workItem from="1744391181413" duration="9849000" />
     </task>
     <servers />
   </component>
@@ -108,25 +148,72 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1744390802261">
+    <state x="742" y="-805" key="FileChooserDialogImpl" timestamp="1744389666463">
       <screen x="2" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744390802261" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1744390802261">
+    <state x="742" y="-805" key="FileChooserDialogImpl/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744389666463" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1744400733791">
       <screen x="2" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744390802261" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1744390802261">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744400733791" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1743974848024" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1744400733791">
       <screen x="2" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744390802261" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1744390802261">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744400733791" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1743974848024" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1744400733791">
       <screen x="2" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744390802261" />
-    <state x="625" y="-855" key="search.everywhere.popup" timestamp="1744389679346">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744400733791" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1743974848024" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1744400733791">
       <screen x="2" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="625" y="-855" key="search.everywhere.popup/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744389679346" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744400733791" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1743974848024" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1744398602949">
+      <screen x="2" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744398602949" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1743973920932" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1744398602949">
+      <screen x="2" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744398602949" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1743973920932" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1744398602949">
+      <screen x="2" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744398602949" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1743973920932" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1744398602949">
+      <screen x="2" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744398602949" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1743973920932" />
+    <state x="771" y="-646" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1744400594496">
+      <screen x="2" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="771" y="-646" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744400594496" />
+    <state x="478" y="14" width="579" height="795" key="find.popup" timestamp="1743974704245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="14" width="579" height="795" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1743974704245" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1743974755041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1743974755041" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Task1197.cpp</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
