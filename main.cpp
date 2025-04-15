@@ -115,7 +115,7 @@ int main(int, char **)
     std::for_each(ipPoolInt.begin(), ipPoolInt.end(), [&ipFileSorted](auto ipList){
         ipFileSorted << ipList[0] << "." << ipList[1] << "." << ipList[2] << "." << ipList[3] << std::endl;
     });
-
+    
     Print(Filter(ipPoolInt, 1));
     std::cout << std::endl;
     Print(Filter(ipPoolInt, 46, 70));
