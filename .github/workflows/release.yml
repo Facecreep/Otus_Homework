@@ -5,7 +5,20 @@ on:
     branches:
       - master
       - feature/github_actions
-
+      - DZ2
+      - DZ3
+      - DZ4
+      - DZ5
+      - DZ6
+      - DZ7
+      - DZ8
+      - DZ9
+      - DZ10
+      - DZ11
+      - DZ12
+      - DZ13
+      - DZ14
+    
 jobs:
   build:
     permissions: write-all
