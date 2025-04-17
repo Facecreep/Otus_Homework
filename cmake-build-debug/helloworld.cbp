@@ -240,6 +240,26 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/BulkHandler.cpp">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/BulkHandler.h">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/OutputHandler.cpp">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/OutputHandler.h">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
 		<Unit filename="C:/Users/Faceecreep/Otus_Homework/lib.cpp">
 			<Option target="helloworld"/>
 		</Unit>

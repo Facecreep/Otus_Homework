@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/helloworld.dir/BulkHandler.cpp.obj"
+  "CMakeFiles/helloworld.dir/OutputHandler.cpp.obj"
   "CMakeFiles/helloworld.dir/lib.cpp.obj"
   "libhelloworld.a"
   "libhelloworld.pdb"

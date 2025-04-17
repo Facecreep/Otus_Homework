@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/helloworld_cli.dir/BulkHandler.cpp.obj"
+  "CMakeFiles/helloworld_cli.dir/OutputHandler.cpp.obj"
   "CMakeFiles/helloworld_cli.dir/main.cpp.obj"
   "helloworld_cli.exe"
   "helloworld_cli.exe.manifest"

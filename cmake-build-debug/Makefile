@@ -227,6 +227,72 @@ test_version/fast:
 	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/build
 .PHONY : test_version/fast
 
+BulkHandler.obj: BulkHandler.cpp.obj
+
+.PHONY : BulkHandler.obj
+
+# target to build an object file
+BulkHandler.cpp.obj:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/BulkHandler.cpp.obj
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/BulkHandler.cpp.obj
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/BulkHandler.cpp.obj
+.PHONY : BulkHandler.cpp.obj
+
+BulkHandler.i: BulkHandler.cpp.i
+
+.PHONY : BulkHandler.i
+
+# target to preprocess a source file
+BulkHandler.cpp.i:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/BulkHandler.cpp.i
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/BulkHandler.cpp.i
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/BulkHandler.cpp.i
+.PHONY : BulkHandler.cpp.i
+
+BulkHandler.s: BulkHandler.cpp.s
+
+.PHONY : BulkHandler.s
+
+# target to generate assembly for a file
+BulkHandler.cpp.s:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/BulkHandler.cpp.s
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/BulkHandler.cpp.s
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/BulkHandler.cpp.s
+.PHONY : BulkHandler.cpp.s
+
+OutputHandler.obj: OutputHandler.cpp.obj
+
+.PHONY : OutputHandler.obj
+
+# target to build an object file
+OutputHandler.cpp.obj:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/OutputHandler.cpp.obj
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/OutputHandler.cpp.obj
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/OutputHandler.cpp.obj
+.PHONY : OutputHandler.cpp.obj
+
+OutputHandler.i: OutputHandler.cpp.i
+
+.PHONY : OutputHandler.i
+
+# target to preprocess a source file
+OutputHandler.cpp.i:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/OutputHandler.cpp.i
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/OutputHandler.cpp.i
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/OutputHandler.cpp.i
+.PHONY : OutputHandler.cpp.i
+
+OutputHandler.s: OutputHandler.cpp.s
+
+.PHONY : OutputHandler.s
+
+# target to generate assembly for a file
+OutputHandler.cpp.s:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/OutputHandler.cpp.s
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/OutputHandler.cpp.s
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/OutputHandler.cpp.s
+.PHONY : OutputHandler.cpp.s
+
 lib.obj: lib.cpp.obj
 
 .PHONY : lib.obj
@@ -326,6 +392,12 @@ help:
 	@echo ... install/local
 	@echo ... install
 	@echo ... install/strip
+	@echo ... BulkHandler.obj
+	@echo ... BulkHandler.i
+	@echo ... BulkHandler.s
+	@echo ... OutputHandler.obj
+	@echo ... OutputHandler.i
+	@echo ... OutputHandler.s
 	@echo ... lib.obj
 	@echo ... lib.i
 	@echo ... lib.s
