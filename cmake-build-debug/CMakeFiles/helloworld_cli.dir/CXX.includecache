@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Projects/Otus/otus-cpp/Otus_Homework/main.cpp
+algorithm
+-
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+

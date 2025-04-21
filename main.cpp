@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 
+using double_int_vector = std::vector<std::vector<int>>;
 
 std::vector<std::string> split(const std::string &str, char d)
 {
@@ -24,8 +25,8 @@ std::vector<std::string> split(const std::string &str, char d)
     return r;
 }
 
-std::vector<std::vector<int>> Filter(const std::vector<std::vector<int>> &twoDVector, int firstByte){
-    std::vector<std::vector<int>> result;
+double_int_vector Filter(const double_int_vector &twoDVector, int firstByte){
+    double_int_vector result;
 
     std::for_each(twoDVector.begin(), twoDVector.end(), [&result, firstByte](auto vector){
         if (vector[0] == firstByte){
@@ -36,8 +37,8 @@ std::vector<std::vector<int>> Filter(const std::vector<std::vector<int>> &twoDVe
     return result;
 }
 
-std::vector<std::vector<int>> Filter(const std::vector<std::vector<int>> &twoDVector, int firstByte, int secondByte){
-    std::vector<std::vector<int>> result;
+double_int_vector Filter(const double_int_vector &twoDVector, int firstByte, int secondByte){
+    double_int_vector result;
 
     std::for_each(twoDVector.begin(), twoDVector.end(), [&result, firstByte, secondByte](auto vector){
         if (vector[0] == firstByte && vector[1] == secondByte){
@@ -48,8 +49,8 @@ std::vector<std::vector<int>> Filter(const std::vector<std::vector<int>> &twoDVe
     return result;
 }
 
-std::vector<std::vector<int>> FilterAny(const std::vector<std::vector<int>> &twoDVector, int firstByte){
-    std::vector<std::vector<int>> result;
+double_int_vector FilterAny(const double_int_vector &twoDVector, int firstByte){
+    double_int_vector result;
 
     std::for_each(twoDVector.begin(), twoDVector.end(), [&result, firstByte](auto vector){
         bool success = false;
@@ -69,9 +70,33 @@ std::vector<std::vector<int>> FilterAny(const std::vector<std::vector<int>> &two
     return result;
 }
 
-void Print(const std::vector<std::vector<int>> &twoDVector){
+std::string ip_to_string(const std::vector<std::string> &ip){
+    std::string result;
+
+    std::for_each(ip.begin(), ip.end(), [&result](auto ip_piece){
+        result += ip_piece + ".";
+    });
+
+    result.pop_back();
+
+    return result;
+}
+
+std::string ip_to_string(const std::vector<int> &ip){
+    std::string result;
+
+    std::for_each(ip.begin(), ip.end(), [&result](auto ip_piece){
+        result += ip_piece + ".";
+    });
+
+    result.pop_back();
+
+    return result;
+}
+
+void print_full_ip_list(const double_int_vector &twoDVector){
     std::for_each(twoDVector.begin(), twoDVector.end(), [](auto ipList){
-        std::cout << ipList[0] << "." << ipList[1] << "." << ipList[2] << "." << ipList[3] << std::endl;
+        std::cout << ip_to_string(ipList) << std::endl;
     });
 }
 
@@ -86,16 +111,25 @@ int main(int, char **)
     {
         std::vector<std::string> v = split(line, '\t');
         std::vector<std::string> ipAddress = split(v.at(0), '.');
+
+        if(ipAddress.size() > 4)
+            throw std::runtime_error("IP address too long: " + ip_to_string(ipAddress));
+
         ipPoolString.push_back(split(v.at(0), '.'));
     }
 
     ipFile.close();
 
-    std::vector<std::vector<int>> ipPoolInt;
+    double_int_vector ipPoolInt;
     std::for_each(ipPoolString.begin(), ipPoolString.end(), [&ipPoolInt](auto ipStringList){
         std::vector<int> ipIntList = {};
-        std::for_each(ipStringList.begin(), ipStringList.end(), [&ipIntList](auto ipString){
-           ipIntList.push_back(std::stoi(ipString));
+        std::for_each(ipStringList.begin(), ipStringList.end(), [&ipIntList, &ipStringList](auto ipString){
+            int ip_int = std::stoi(ipString);
+
+            if(ip_int > 255 || ip_int < 0)
+                throw std::runtime_error("IP out of range: " + ip_to_string(ipStringList));
+
+            ipIntList.push_back(std::stoi(ipString));
         });
         ipPoolInt.push_back(ipIntList);
     });
@@ -115,10 +149,10 @@ int main(int, char **)
     std::for_each(ipPoolInt.begin(), ipPoolInt.end(), [&ipFileSorted](auto ipList){
         ipFileSorted << ipList[0] << "." << ipList[1] << "." << ipList[2] << "." << ipList[3] << std::endl;
     });
-    
-    Print(Filter(ipPoolInt, 1));
+
+    print_full_ip_list(Filter(ipPoolInt, 1));
     std::cout << std::endl;
-    Print(Filter(ipPoolInt, 46, 70));
+    print_full_ip_list(Filter(ipPoolInt, 46, 70));
     std::cout << std::endl;
-    Print(FilterAny(ipPoolInt, 46));
+    print_full_ip_list(FilterAny(ipPoolInt, 46));
 }
