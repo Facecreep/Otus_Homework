@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Faceecreep/Otus_Homework/test_version.cpp" "C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/test_version.dir/test_version.cpp.obj"
+  "E:/Projects/Otus/otus-cpp/Otus_Homework/test_version.cpp" "E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/CMakeFiles/test_version.dir/test_version.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,12 +15,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "C:/Apps/MinGW/include"
+  "E:/SDK/MinGW/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake"
+  "E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

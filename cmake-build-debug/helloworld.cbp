@@ -8,254 +8,254 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="helloworld_cli">
-				<Option output="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/helloworld_cli.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option output="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/helloworld_cli.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld_cli"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld_cli"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="helloworld_cli/fast">
-				<Option output="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/helloworld_cli.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option output="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/helloworld_cli.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld_cli/fast"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld_cli/fast"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="package_source">
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="helloworld">
-				<Option output="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/libhelloworld.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option output="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/libhelloworld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="helloworld/fast">
-				<Option output="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/libhelloworld.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option output="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/libhelloworld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_version">
-				<Option output="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/test_version.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option output="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/test_version.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DBOOST_TEST_DYN_LINK"/>
-					<Add directory="C:/Apps/MinGW/include"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/SDK/MinGW/include"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_version"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_version"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_version/fast">
-				<Option output="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/test_version.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option output="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/test_version.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DBOOST_TEST_DYN_LINK"/>
-					<Add directory="C:/Apps/MinGW/include"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
-					<Add directory="C:/Apps/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/SDK/MinGW/include"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="E:/SDK/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_version/fast"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_version/fast"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="package">
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test">
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="C:/Users/Faceecreep/Otus_Homework/cmake-build-debug"/>
+				<Option working_dir="E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Apps/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/SDK/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Faceecreep/Otus_Homework/lib.cpp">
+		<Unit filename="E:/Projects/Otus/otus-cpp/Otus_Homework/lib.cpp">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="C:/Users/Faceecreep/Otus_Homework/lib.h">
+		<Unit filename="E:/Projects/Otus/otus-cpp/Otus_Homework/lib.h">
 			<Option target="helloworld"/>
 		</Unit>
-		<Unit filename="C:/Users/Faceecreep/Otus_Homework/main.cpp">
+		<Unit filename="E:/Projects/Otus/otus-cpp/Otus_Homework/main.cpp">
 			<Option target="helloworld_cli"/>
 		</Unit>
-		<Unit filename="C:/Users/Faceecreep/Otus_Homework/test_version.cpp">
+		<Unit filename="E:/Projects/Otus/otus-cpp/Otus_Homework/test_version.cpp">
 			<Option target="test_version"/>
 		</Unit>
-		<Unit filename="C:/Users/Faceecreep/Otus_Homework/CMakeLists.txt">
+		<Unit filename="E:/Projects/Otus/otus-cpp/Otus_Homework/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/Faceecreep/Otus_Homework/version.h.in">
+		<Unit filename="E:/Projects/Otus/otus-cpp/Otus_Homework/version.h.in">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

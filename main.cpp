@@ -17,11 +17,7 @@ void print_container(const T &container){
 }
 
 template<typename T,
-        typename std::enable_if<
-                std::is_same<T, int16_t>::value ||
-                std::is_same<T, int8_t>::value ||
-                std::is_same<T, int32_t>::value ||
-                std::is_same<T, int64_t>::value, int
+        typename std::enable_if<std::is_integral<T>::value, int
         >::type = 0>
 void print_ip(T value) {
     uint8_t* byte_ptr = reinterpret_cast<uint8_t*>(&value);
@@ -45,25 +41,26 @@ void print_ip(T value) {
     std::cout << value<< std::endl;
 }
 
-//template<typename T>
-//auto print_ip(T& container) -> decltype(container.size()){
-//
-//    std::cout << value<< std::endl;
+template<typename T,
+        typename std::enable_if<!std::is_same<T, std::string>::value, int
+        >::type = 0>
+auto print_ip(const T& container) -> decltype(container.begin(), container.end()){
+    print_container(container);
+}
+
+//template<typename T,
+//        typename std::enable_if<std::is_same<T, std::vector<int>>::value, int
+//        >::type = 0>
+//void print_ip(T value) {
+//    print_container(value);
 //}
-
-template<typename T,
-        typename std::enable_if<std::is_same<T, std::vector<int>>::value, int
-        >::type = 0>
-void print_ip(T value) {
-    print_container(value);
-}
-
-template<typename T,
-        typename std::enable_if<std::is_same<T, std::list<int>>::value, int
-        >::type = 0>
-void print_ip(T value) {
-    print_container(value);
-}
+//
+//template<typename T,
+//        typename std::enable_if<std::is_same<T, std::list<int>>::value, int
+//        >::type = 0>
+//void print_ip(T value) {
+//    print_container(value);
+//}
 
 //template<typename T,
 //        typename = typename std::enable_if<

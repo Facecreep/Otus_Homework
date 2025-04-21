@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Faceecreep/Otus_Homework/main.cpp
+E:/Projects/Otus/otus-cpp/Otus_Homework/main.cpp
 iostream
 -
 cstdint
@@ -14,5 +14,7 @@ cstdint
 vector
 -
 list
+-
+tuple
 -
 
