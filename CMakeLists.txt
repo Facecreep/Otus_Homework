@@ -9,8 +9,8 @@ option(WITH_BOOST_TEST "Whether to build Boost test" ON)
 
 configure_file(version.h.in version.h)
 
-add_executable(helloworld_cli main.cpp BulkHandler.cpp BulkHandler.h OutputHandler.cpp OutputHandler.h)
-add_library(helloworld lib.cpp BulkHandler.cpp BulkHandler.h OutputHandler.cpp OutputHandler.h)
+add_executable(helloworld_cli main.cpp BulkHandler.cpp BulkHandler.h OutputHandler.cpp OutputHandler.h async.cpp async.h)
+add_library(helloworld lib.cpp BulkHandler.cpp BulkHandler.h OutputHandler.cpp OutputHandler.h async.cpp async.h)
 
 set_target_properties(helloworld_cli helloworld PROPERTIES
     CXX_STANDARD 14
@@ -27,7 +27,7 @@ target_link_libraries(helloworld_cli PRIVATE
 
 if(WITH_BOOST_TEST)
     find_package(Boost COMPONENTS unit_test_framework REQUIRED)
-    add_executable(test_version test_version.cpp BulkHandler.cpp BulkHandler.h OutputHandler.cpp OutputHandler.h)
+    add_executable(test_version test_version.cpp BulkHandler.cpp BulkHandler.h OutputHandler.cpp OutputHandler.h async.cpp async.h)
 
     set_target_properties(test_version PROPERTIES
         CXX_STANDARD 14

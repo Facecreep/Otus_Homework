@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Faceecreep\Otus_Homework
+CMAKE_SOURCE_DIR = E:\Projects\Otus\otus-cpp\Otus_Homework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Faceecreep\Otus_Homework\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Faceecreep\Otus_Homework\cmake-build-debug
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CPackSourceConfig.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -69,7 +69,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -80,7 +80,7 @@ package/fast: package
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -91,7 +91,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\ctest.exe" --force-new-ctest-process $(ARGS)
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\ctest.exe" --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -102,7 +102,7 @@ test/fast: test
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,44 +123,44 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug\CMakeFiles E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -293,6 +293,39 @@ OutputHandler.cpp.s:
 	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/OutputHandler.cpp.s
 .PHONY : OutputHandler.cpp.s
 
+async.obj: async.cpp.obj
+
+.PHONY : async.obj
+
+# target to build an object file
+async.cpp.obj:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/async.cpp.obj
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/async.cpp.obj
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/async.cpp.obj
+.PHONY : async.cpp.obj
+
+async.i: async.cpp.i
+
+.PHONY : async.i
+
+# target to preprocess a source file
+async.cpp.i:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/async.cpp.i
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/async.cpp.i
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/async.cpp.i
+.PHONY : async.cpp.i
+
+async.s: async.cpp.s
+
+.PHONY : async.s
+
+# target to generate assembly for a file
+async.cpp.s:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/async.cpp.s
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/async.cpp.s
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/async.cpp.s
+.PHONY : async.cpp.s
+
 lib.obj: lib.cpp.obj
 
 .PHONY : lib.obj
@@ -398,6 +431,9 @@ help:
 	@echo ... OutputHandler.obj
 	@echo ... OutputHandler.i
 	@echo ... OutputHandler.s
+	@echo ... async.obj
+	@echo ... async.i
+	@echo ... async.s
 	@echo ... lib.obj
 	@echo ... lib.i
 	@echo ... lib.s

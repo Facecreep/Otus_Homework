@@ -1,13 +1,13 @@
-"C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Faceecreep\Otus_Homework
-CMake Warning at C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake:1161 (message):
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Projects\Otus\otus-cpp\Otus_Homework
+CMake Warning at C:/Program Files/JetBrains/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake:1161 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake:1283 (_Boost_COMPONENT_DEPENDENCIES)
-  C:/Apps/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake:1921 (_Boost_MISSING_DEPENDENCIES)
+  C:/Program Files/JetBrains/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake:1283 (_Boost_COMPONENT_DEPENDENCIES)
+  C:/Program Files/JetBrains/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake:1921 (_Boost_MISSING_DEPENDENCIES)
   CMakeLists.txt:29 (find_package)
 
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Faceecreep/Otus_Homework/cmake-build-debug
+-- Build files have been written to: E:/Projects/Otus/otus-cpp/Otus_Homework/cmake-build-debug
