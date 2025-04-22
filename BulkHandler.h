@@ -18,6 +18,8 @@ public:
     ~BulkHandler();
 
     void add_to_bulk(const std::string &string);
+    void force_end_bulk();
+
     std::map<std::string, std::vector<std::string>> get_bulk_map();
 
 private:

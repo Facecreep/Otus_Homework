@@ -6,7 +6,8 @@
 
 BulkHandler::BulkHandler(int bulk_size)
 :bulk_size(bulk_size),
-is_in_dynamic_bulk(false){
+is_in_dynamic_bulk(false),
+dynamic_bulk_depth(0){
 }
 BulkHandler::~BulkHandler()= default;
 
@@ -27,7 +28,6 @@ void BulkHandler::add_to_bulk(const std::string &string) {
     }
 
     bulk_container.push_back(string);
-    std::cout << "Pushed " << string << " to bulk" << std::endl;
 
     if(!is_in_dynamic_bulk && bulk_container.size() == bulk_size){
         end_bulk();
@@ -59,15 +59,17 @@ void BulkHandler::end_bulk() {
     if(bulk_container.empty())
         return;
 
-    std::vector<std::string> bulk_container_copy = bulk_container;
-
-    bulk_map.insert({std::to_string(start_time), bulk_container_copy});
+    OutputHandler::output_to_file(std::to_string(start_time), bulk_container);
 
     bulk_container.clear();
 }
 
 std::map<std::string, std::vector<std::string>> BulkHandler::get_bulk_map() {
     return bulk_map;
+}
+
+void BulkHandler::force_end_bulk() {
+    end_bulk();
 }
 
 

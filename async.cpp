@@ -12,22 +12,25 @@ handle_t connect(std::size_t bulk) {
 void receive(handle_t handle, const char *data, std::size_t size) {
     BulkHandler* bulk_handle = static_cast<BulkHandler*>(handle);
 
+    std::string command;
     for(size_t i = 0; i < size; i++, data++){
-        bulk_handle->add_to_bulk(data);
+        if(*data != '\n'){
+            command.push_back(*data);
+        }
+        else if(command != ""){
+            bulk_handle->add_to_bulk(command);
+            command = "";
+        }
     }
 
-    std::cout << "here" << std::endl;
-
-    auto map = bulk_handle->get_bulk_map();
-
-    for(std::map<std::string, std::vector<std::string>>::iterator iterator = map.begin();
-            iterator != map.end();
-            iterator++){
-        std::cout << iterator->first << std::endl;
-    }
+    if(command != "")
+        bulk_handle->add_to_bulk(command);
 }
 
 void disconnect(handle_t handle) {
+    BulkHandler* bulk_handle = static_cast<BulkHandler*>(handle);
+
+    bulk_handle->force_end_bulk();
 }
 
 }
