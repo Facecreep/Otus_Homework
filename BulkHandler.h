@@ -8,6 +8,7 @@
 #include <vector>
 #include <string>
 #include <chrono>
+#include <map>
 
 #include "OutputHandler.h"
 
@@ -17,6 +18,7 @@ public:
     ~BulkHandler();
 
     void add_to_bulk(const std::string &string);
+    std::map<std::string, std::vector<std::string>> get_bulk_map();
 
 private:
     size_t bulk_size;
@@ -27,6 +29,7 @@ private:
     int start_time;
 
     std::vector<std::string> bulk_container;
+    std::map<std::string, std::vector<std::string>> bulk_map;
 
     void end_bulk();
     void deepen_dynamic_bulk();

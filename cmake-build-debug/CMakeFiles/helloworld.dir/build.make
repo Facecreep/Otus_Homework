@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Apps\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Projects\Otus\otus-cpp\Otus_Homework
+CMAKE_SOURCE_DIR = C:\Users\Faceecreep\Otus_Homework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Faceecreep\Otus_Homework\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/helloworld.dir/depend.make
@@ -59,58 +59,58 @@ include CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/lib.cpp.obj: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/lib.cpp.obj: CMakeFiles/helloworld.dir/includes_CXX.rsp
 CMakeFiles/helloworld.dir/lib.cpp.obj: ../lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/helloworld.dir/lib.cpp.obj"
-	E:\SDK\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\lib.cpp.obj -c E:\Projects\Otus\otus-cpp\Otus_Homework\lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/helloworld.dir/lib.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\lib.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\lib.cpp
 
 CMakeFiles/helloworld.dir/lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/lib.cpp.i"
-	E:\SDK\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\Otus\otus-cpp\Otus_Homework\lib.cpp > CMakeFiles\helloworld.dir\lib.cpp.i
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\lib.cpp > CMakeFiles\helloworld.dir\lib.cpp.i
 
 CMakeFiles/helloworld.dir/lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/lib.cpp.s"
-	E:\SDK\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\Otus\otus-cpp\Otus_Homework\lib.cpp -o CMakeFiles\helloworld.dir\lib.cpp.s
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\lib.cpp -o CMakeFiles\helloworld.dir\lib.cpp.s
 
 CMakeFiles/helloworld.dir/BulkHandler.cpp.obj: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/BulkHandler.cpp.obj: CMakeFiles/helloworld.dir/includes_CXX.rsp
 CMakeFiles/helloworld.dir/BulkHandler.cpp.obj: ../BulkHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/helloworld.dir/BulkHandler.cpp.obj"
-	E:\SDK\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\BulkHandler.cpp.obj -c E:\Projects\Otus\otus-cpp\Otus_Homework\BulkHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/helloworld.dir/BulkHandler.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\BulkHandler.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\BulkHandler.cpp
 
 CMakeFiles/helloworld.dir/BulkHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/BulkHandler.cpp.i"
-	E:\SDK\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\Otus\otus-cpp\Otus_Homework\BulkHandler.cpp > CMakeFiles\helloworld.dir\BulkHandler.cpp.i
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\BulkHandler.cpp > CMakeFiles\helloworld.dir\BulkHandler.cpp.i
 
 CMakeFiles/helloworld.dir/BulkHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/BulkHandler.cpp.s"
-	E:\SDK\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\Otus\otus-cpp\Otus_Homework\BulkHandler.cpp -o CMakeFiles\helloworld.dir\BulkHandler.cpp.s
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\BulkHandler.cpp -o CMakeFiles\helloworld.dir\BulkHandler.cpp.s
 
 CMakeFiles/helloworld.dir/OutputHandler.cpp.obj: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/OutputHandler.cpp.obj: CMakeFiles/helloworld.dir/includes_CXX.rsp
 CMakeFiles/helloworld.dir/OutputHandler.cpp.obj: ../OutputHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/helloworld.dir/OutputHandler.cpp.obj"
-	E:\SDK\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\OutputHandler.cpp.obj -c E:\Projects\Otus\otus-cpp\Otus_Homework\OutputHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/helloworld.dir/OutputHandler.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\OutputHandler.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\OutputHandler.cpp
 
 CMakeFiles/helloworld.dir/OutputHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/OutputHandler.cpp.i"
-	E:\SDK\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\Otus\otus-cpp\Otus_Homework\OutputHandler.cpp > CMakeFiles\helloworld.dir\OutputHandler.cpp.i
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\OutputHandler.cpp > CMakeFiles\helloworld.dir\OutputHandler.cpp.i
 
 CMakeFiles/helloworld.dir/OutputHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/OutputHandler.cpp.s"
-	E:\SDK\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\Otus\otus-cpp\Otus_Homework\OutputHandler.cpp -o CMakeFiles\helloworld.dir\OutputHandler.cpp.s
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\OutputHandler.cpp -o CMakeFiles\helloworld.dir\OutputHandler.cpp.s
 
 CMakeFiles/helloworld.dir/async.cpp.obj: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/async.cpp.obj: CMakeFiles/helloworld.dir/includes_CXX.rsp
 CMakeFiles/helloworld.dir/async.cpp.obj: ../async.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/helloworld.dir/async.cpp.obj"
-	E:\SDK\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\async.cpp.obj -c E:\Projects\Otus\otus-cpp\Otus_Homework\async.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/helloworld.dir/async.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\async.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\async.cpp
 
 CMakeFiles/helloworld.dir/async.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/async.cpp.i"
-	E:\SDK\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\Otus\otus-cpp\Otus_Homework\async.cpp > CMakeFiles\helloworld.dir\async.cpp.i
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\async.cpp > CMakeFiles\helloworld.dir\async.cpp.i
 
 CMakeFiles/helloworld.dir/async.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/async.cpp.s"
-	E:\SDK\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\Otus\otus-cpp\Otus_Homework\async.cpp -o CMakeFiles\helloworld.dir\async.cpp.s
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\async.cpp -o CMakeFiles\helloworld.dir\async.cpp.s
 
 # Object files for target helloworld
 helloworld_OBJECTS = \
@@ -128,7 +128,7 @@ libhelloworld.a: CMakeFiles/helloworld.dir/OutputHandler.cpp.obj
 libhelloworld.a: CMakeFiles/helloworld.dir/async.cpp.obj
 libhelloworld.a: CMakeFiles/helloworld.dir/build.make
 libhelloworld.a: CMakeFiles/helloworld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libhelloworld.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libhelloworld.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\helloworld.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\helloworld.dir\link.txt --verbose=$(VERBOSE)
 
@@ -142,6 +142,6 @@ CMakeFiles/helloworld.dir/clean:
 .PHONY : CMakeFiles/helloworld.dir/clean
 
 CMakeFiles/helloworld.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Projects\Otus\otus-cpp\Otus_Homework E:\Projects\Otus\otus-cpp\Otus_Homework E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug E:\Projects\Otus\otus-cpp\Otus_Homework\cmake-build-debug\CMakeFiles\helloworld.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Faceecreep\Otus_Homework C:\Users\Faceecreep\Otus_Homework C:\Users\Faceecreep\Otus_Homework\cmake-build-debug C:\Users\Faceecreep\Otus_Homework\cmake-build-debug C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles\helloworld.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/helloworld.dir/depend
 

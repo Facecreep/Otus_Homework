@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Faceecreep/Otus_Homework/async.h
+cstddef
+-
+map
+-
+string
+-
+vector
+-
+
+C:/Users/Faceecreep/Otus_Homework/main.cpp
+iostream
+-
+async.h
+C:/Users/Faceecreep/Otus_Homework/async.h
+
