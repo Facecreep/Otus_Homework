@@ -227,6 +227,204 @@ test_version/fast:
 	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/build
 .PHONY : test_version/fast
 
+Canvas.obj: Canvas.cpp.obj
+
+.PHONY : Canvas.obj
+
+# target to build an object file
+Canvas.cpp.obj:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Canvas.cpp.obj
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Canvas.cpp.obj
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Canvas.cpp.obj
+.PHONY : Canvas.cpp.obj
+
+Canvas.i: Canvas.cpp.i
+
+.PHONY : Canvas.i
+
+# target to preprocess a source file
+Canvas.cpp.i:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Canvas.cpp.i
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Canvas.cpp.i
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Canvas.cpp.i
+.PHONY : Canvas.cpp.i
+
+Canvas.s: Canvas.cpp.s
+
+.PHONY : Canvas.s
+
+# target to generate assembly for a file
+Canvas.cpp.s:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Canvas.cpp.s
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Canvas.cpp.s
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Canvas.cpp.s
+.PHONY : Canvas.cpp.s
+
+FileHandler.obj: FileHandler.cpp.obj
+
+.PHONY : FileHandler.obj
+
+# target to build an object file
+FileHandler.cpp.obj:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/FileHandler.cpp.obj
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/FileHandler.cpp.obj
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/FileHandler.cpp.obj
+.PHONY : FileHandler.cpp.obj
+
+FileHandler.i: FileHandler.cpp.i
+
+.PHONY : FileHandler.i
+
+# target to preprocess a source file
+FileHandler.cpp.i:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/FileHandler.cpp.i
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/FileHandler.cpp.i
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/FileHandler.cpp.i
+.PHONY : FileHandler.cpp.i
+
+FileHandler.s: FileHandler.cpp.s
+
+.PHONY : FileHandler.s
+
+# target to generate assembly for a file
+FileHandler.cpp.s:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/FileHandler.cpp.s
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/FileHandler.cpp.s
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/FileHandler.cpp.s
+.PHONY : FileHandler.cpp.s
+
+Shapes/Circle.obj: Shapes/Circle.cpp.obj
+
+.PHONY : Shapes/Circle.obj
+
+# target to build an object file
+Shapes/Circle.cpp.obj:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Circle.cpp.obj
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Circle.cpp.obj
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Circle.cpp.obj
+.PHONY : Shapes/Circle.cpp.obj
+
+Shapes/Circle.i: Shapes/Circle.cpp.i
+
+.PHONY : Shapes/Circle.i
+
+# target to preprocess a source file
+Shapes/Circle.cpp.i:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Circle.cpp.i
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Circle.cpp.i
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Circle.cpp.i
+.PHONY : Shapes/Circle.cpp.i
+
+Shapes/Circle.s: Shapes/Circle.cpp.s
+
+.PHONY : Shapes/Circle.s
+
+# target to generate assembly for a file
+Shapes/Circle.cpp.s:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Circle.cpp.s
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Circle.cpp.s
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Circle.cpp.s
+.PHONY : Shapes/Circle.cpp.s
+
+Shapes/Line.obj: Shapes/Line.cpp.obj
+
+.PHONY : Shapes/Line.obj
+
+# target to build an object file
+Shapes/Line.cpp.obj:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Line.cpp.obj
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Line.cpp.obj
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Line.cpp.obj
+.PHONY : Shapes/Line.cpp.obj
+
+Shapes/Line.i: Shapes/Line.cpp.i
+
+.PHONY : Shapes/Line.i
+
+# target to preprocess a source file
+Shapes/Line.cpp.i:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Line.cpp.i
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Line.cpp.i
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Line.cpp.i
+.PHONY : Shapes/Line.cpp.i
+
+Shapes/Line.s: Shapes/Line.cpp.s
+
+.PHONY : Shapes/Line.s
+
+# target to generate assembly for a file
+Shapes/Line.cpp.s:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Line.cpp.s
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Line.cpp.s
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Line.cpp.s
+.PHONY : Shapes/Line.cpp.s
+
+Shapes/Rectangle.obj: Shapes/Rectangle.cpp.obj
+
+.PHONY : Shapes/Rectangle.obj
+
+# target to build an object file
+Shapes/Rectangle.cpp.obj:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Rectangle.cpp.obj
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.obj
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.obj
+.PHONY : Shapes/Rectangle.cpp.obj
+
+Shapes/Rectangle.i: Shapes/Rectangle.cpp.i
+
+.PHONY : Shapes/Rectangle.i
+
+# target to preprocess a source file
+Shapes/Rectangle.cpp.i:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Rectangle.cpp.i
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.i
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.i
+.PHONY : Shapes/Rectangle.cpp.i
+
+Shapes/Rectangle.s: Shapes/Rectangle.cpp.s
+
+.PHONY : Shapes/Rectangle.s
+
+# target to generate assembly for a file
+Shapes/Rectangle.cpp.s:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Rectangle.cpp.s
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.s
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.s
+.PHONY : Shapes/Rectangle.cpp.s
+
+Shapes/Shape.obj: Shapes/Shape.cpp.obj
+
+.PHONY : Shapes/Shape.obj
+
+# target to build an object file
+Shapes/Shape.cpp.obj:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Shape.cpp.obj
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Shape.cpp.obj
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Shape.cpp.obj
+.PHONY : Shapes/Shape.cpp.obj
+
+Shapes/Shape.i: Shapes/Shape.cpp.i
+
+.PHONY : Shapes/Shape.i
+
+# target to preprocess a source file
+Shapes/Shape.cpp.i:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Shape.cpp.i
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Shape.cpp.i
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Shape.cpp.i
+.PHONY : Shapes/Shape.cpp.i
+
+Shapes/Shape.s: Shapes/Shape.cpp.s
+
+.PHONY : Shapes/Shape.s
+
+# target to generate assembly for a file
+Shapes/Shape.cpp.s:
+	$(MAKE) -f CMakeFiles\helloworld_cli.dir\build.make CMakeFiles/helloworld_cli.dir/Shapes/Shape.cpp.s
+	$(MAKE) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/Shapes/Shape.cpp.s
+	$(MAKE) -f CMakeFiles\test_version.dir\build.make CMakeFiles/test_version.dir/Shapes/Shape.cpp.s
+.PHONY : Shapes/Shape.cpp.s
+
 lib.obj: lib.cpp.obj
 
 .PHONY : lib.obj
@@ -326,6 +524,24 @@ help:
 	@echo ... install/local
 	@echo ... install
 	@echo ... install/strip
+	@echo ... Canvas.obj
+	@echo ... Canvas.i
+	@echo ... Canvas.s
+	@echo ... FileHandler.obj
+	@echo ... FileHandler.i
+	@echo ... FileHandler.s
+	@echo ... Shapes/Circle.obj
+	@echo ... Shapes/Circle.i
+	@echo ... Shapes/Circle.s
+	@echo ... Shapes/Line.obj
+	@echo ... Shapes/Line.i
+	@echo ... Shapes/Line.s
+	@echo ... Shapes/Rectangle.obj
+	@echo ... Shapes/Rectangle.i
+	@echo ... Shapes/Rectangle.s
+	@echo ... Shapes/Shape.obj
+	@echo ... Shapes/Shape.i
+	@echo ... Shapes/Shape.s
 	@echo ... lib.obj
 	@echo ... lib.i
 	@echo ... lib.s

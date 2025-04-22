@@ -240,6 +240,71 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Canvas.cpp">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Canvas.h">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/FileHandler.cpp">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/FileHandler.h">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Shapes/Circle.cpp">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Shapes/Circle.h">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Shapes/Line.cpp">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Shapes/Line.h">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Shapes/Rectangle.cpp">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Shapes/Rectangle.h">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Shapes/Shape.cpp">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Shapes/Shape.h">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
+		<Unit filename="C:/Users/Faceecreep/Otus_Homework/Shapes/Shapes.h">
+			<Option target="helloworld_cli"/>
+			<Option target="helloworld"/>
+			<Option target="test_version"/>
+		</Unit>
 		<Unit filename="C:/Users/Faceecreep/Otus_Homework/lib.cpp">
 			<Option target="helloworld"/>
 		</Unit>

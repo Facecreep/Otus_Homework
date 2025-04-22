@@ -1,2 +1,2 @@
-C:\Apps\MinGW\bin\ar.exe qc libhelloworld.a  CMakeFiles/helloworld.dir/lib.cpp.obj
+C:\Apps\MinGW\bin\ar.exe qc libhelloworld.a  CMakeFiles/helloworld.dir/lib.cpp.obj CMakeFiles/helloworld.dir/FileHandler.cpp.obj CMakeFiles/helloworld.dir/Shapes/Shape.cpp.obj CMakeFiles/helloworld.dir/Shapes/Line.cpp.obj CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.obj CMakeFiles/helloworld.dir/Shapes/Circle.cpp.obj CMakeFiles/helloworld.dir/Canvas.cpp.obj
 C:\Apps\MinGW\bin\ranlib.exe libhelloworld.a

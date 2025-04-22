@@ -70,21 +70,117 @@ CMakeFiles/test_version.dir/test_version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_version.dir/test_version.cpp.s"
 	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\test_version.cpp -o CMakeFiles\test_version.dir\test_version.cpp.s
 
+CMakeFiles/test_version.dir/FileHandler.cpp.obj: CMakeFiles/test_version.dir/flags.make
+CMakeFiles/test_version.dir/FileHandler.cpp.obj: CMakeFiles/test_version.dir/includes_CXX.rsp
+CMakeFiles/test_version.dir/FileHandler.cpp.obj: ../FileHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_version.dir/FileHandler.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test_version.dir\FileHandler.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\FileHandler.cpp
+
+CMakeFiles/test_version.dir/FileHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_version.dir/FileHandler.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\FileHandler.cpp > CMakeFiles\test_version.dir\FileHandler.cpp.i
+
+CMakeFiles/test_version.dir/FileHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_version.dir/FileHandler.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\FileHandler.cpp -o CMakeFiles\test_version.dir\FileHandler.cpp.s
+
+CMakeFiles/test_version.dir/Shapes/Shape.cpp.obj: CMakeFiles/test_version.dir/flags.make
+CMakeFiles/test_version.dir/Shapes/Shape.cpp.obj: CMakeFiles/test_version.dir/includes_CXX.rsp
+CMakeFiles/test_version.dir/Shapes/Shape.cpp.obj: ../Shapes/Shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_version.dir/Shapes/Shape.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test_version.dir\Shapes\Shape.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\Shapes\Shape.cpp
+
+CMakeFiles/test_version.dir/Shapes/Shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_version.dir/Shapes/Shape.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\Shapes\Shape.cpp > CMakeFiles\test_version.dir\Shapes\Shape.cpp.i
+
+CMakeFiles/test_version.dir/Shapes/Shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_version.dir/Shapes/Shape.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\Shapes\Shape.cpp -o CMakeFiles\test_version.dir\Shapes\Shape.cpp.s
+
+CMakeFiles/test_version.dir/Shapes/Line.cpp.obj: CMakeFiles/test_version.dir/flags.make
+CMakeFiles/test_version.dir/Shapes/Line.cpp.obj: CMakeFiles/test_version.dir/includes_CXX.rsp
+CMakeFiles/test_version.dir/Shapes/Line.cpp.obj: ../Shapes/Line.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_version.dir/Shapes/Line.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test_version.dir\Shapes\Line.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\Shapes\Line.cpp
+
+CMakeFiles/test_version.dir/Shapes/Line.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_version.dir/Shapes/Line.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\Shapes\Line.cpp > CMakeFiles\test_version.dir\Shapes\Line.cpp.i
+
+CMakeFiles/test_version.dir/Shapes/Line.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_version.dir/Shapes/Line.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\Shapes\Line.cpp -o CMakeFiles\test_version.dir\Shapes\Line.cpp.s
+
+CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.obj: CMakeFiles/test_version.dir/flags.make
+CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.obj: CMakeFiles/test_version.dir/includes_CXX.rsp
+CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.obj: ../Shapes/Rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test_version.dir\Shapes\Rectangle.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\Shapes\Rectangle.cpp
+
+CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\Shapes\Rectangle.cpp > CMakeFiles\test_version.dir\Shapes\Rectangle.cpp.i
+
+CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\Shapes\Rectangle.cpp -o CMakeFiles\test_version.dir\Shapes\Rectangle.cpp.s
+
+CMakeFiles/test_version.dir/Shapes/Circle.cpp.obj: CMakeFiles/test_version.dir/flags.make
+CMakeFiles/test_version.dir/Shapes/Circle.cpp.obj: CMakeFiles/test_version.dir/includes_CXX.rsp
+CMakeFiles/test_version.dir/Shapes/Circle.cpp.obj: ../Shapes/Circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test_version.dir/Shapes/Circle.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test_version.dir\Shapes\Circle.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\Shapes\Circle.cpp
+
+CMakeFiles/test_version.dir/Shapes/Circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_version.dir/Shapes/Circle.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\Shapes\Circle.cpp > CMakeFiles\test_version.dir\Shapes\Circle.cpp.i
+
+CMakeFiles/test_version.dir/Shapes/Circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_version.dir/Shapes/Circle.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\Shapes\Circle.cpp -o CMakeFiles\test_version.dir\Shapes\Circle.cpp.s
+
+CMakeFiles/test_version.dir/Canvas.cpp.obj: CMakeFiles/test_version.dir/flags.make
+CMakeFiles/test_version.dir/Canvas.cpp.obj: CMakeFiles/test_version.dir/includes_CXX.rsp
+CMakeFiles/test_version.dir/Canvas.cpp.obj: ../Canvas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test_version.dir/Canvas.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test_version.dir\Canvas.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\Canvas.cpp
+
+CMakeFiles/test_version.dir/Canvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_version.dir/Canvas.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\Canvas.cpp > CMakeFiles\test_version.dir\Canvas.cpp.i
+
+CMakeFiles/test_version.dir/Canvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_version.dir/Canvas.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\Canvas.cpp -o CMakeFiles\test_version.dir\Canvas.cpp.s
+
 # Object files for target test_version
 test_version_OBJECTS = \
-"CMakeFiles/test_version.dir/test_version.cpp.obj"
+"CMakeFiles/test_version.dir/test_version.cpp.obj" \
+"CMakeFiles/test_version.dir/FileHandler.cpp.obj" \
+"CMakeFiles/test_version.dir/Shapes/Shape.cpp.obj" \
+"CMakeFiles/test_version.dir/Shapes/Line.cpp.obj" \
+"CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.obj" \
+"CMakeFiles/test_version.dir/Shapes/Circle.cpp.obj" \
+"CMakeFiles/test_version.dir/Canvas.cpp.obj"
 
 # External object files for target test_version
 test_version_EXTERNAL_OBJECTS =
 
 test_version.exe: CMakeFiles/test_version.dir/test_version.cpp.obj
+test_version.exe: CMakeFiles/test_version.dir/FileHandler.cpp.obj
+test_version.exe: CMakeFiles/test_version.dir/Shapes/Shape.cpp.obj
+test_version.exe: CMakeFiles/test_version.dir/Shapes/Line.cpp.obj
+test_version.exe: CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.obj
+test_version.exe: CMakeFiles/test_version.dir/Shapes/Circle.cpp.obj
+test_version.exe: CMakeFiles/test_version.dir/Canvas.cpp.obj
 test_version.exe: CMakeFiles/test_version.dir/build.make
 test_version.exe: C:/Apps/MinGW/lib/libboost_unit_test_framework.a
 test_version.exe: libhelloworld.a
 test_version.exe: CMakeFiles/test_version.dir/linklibs.rsp
 test_version.exe: CMakeFiles/test_version.dir/objects1.rsp
 test_version.exe: CMakeFiles/test_version.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_version.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable test_version.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test_version.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

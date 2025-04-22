@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_version.dir/Canvas.cpp.obj"
+  "CMakeFiles/test_version.dir/FileHandler.cpp.obj"
+  "CMakeFiles/test_version.dir/Shapes/Circle.cpp.obj"
+  "CMakeFiles/test_version.dir/Shapes/Line.cpp.obj"
+  "CMakeFiles/test_version.dir/Shapes/Rectangle.cpp.obj"
+  "CMakeFiles/test_version.dir/Shapes/Shape.cpp.obj"
   "CMakeFiles/test_version.dir/test_version.cpp.obj"
   "libtest_version.dll.a"
   "test_version.exe"

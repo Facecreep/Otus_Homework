@@ -4,6 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Faceecreep/Otus_Homework/Canvas.cpp" "C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld.dir/Canvas.cpp.obj"
+  "C:/Users/Faceecreep/Otus_Homework/FileHandler.cpp" "C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld.dir/FileHandler.cpp.obj"
+  "C:/Users/Faceecreep/Otus_Homework/Shapes/Circle.cpp" "C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld.dir/Shapes/Circle.cpp.obj"
+  "C:/Users/Faceecreep/Otus_Homework/Shapes/Line.cpp" "C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld.dir/Shapes/Line.cpp.obj"
+  "C:/Users/Faceecreep/Otus_Homework/Shapes/Rectangle.cpp" "C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.obj"
+  "C:/Users/Faceecreep/Otus_Homework/Shapes/Shape.cpp" "C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld.dir/Shapes/Shape.cpp.obj"
   "C:/Users/Faceecreep/Otus_Homework/lib.cpp" "C:/Users/Faceecreep/Otus_Homework/cmake-build-debug/CMakeFiles/helloworld.dir/lib.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

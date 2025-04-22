@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/helloworld_cli.dir/Canvas.cpp.obj"
+  "CMakeFiles/helloworld_cli.dir/FileHandler.cpp.obj"
+  "CMakeFiles/helloworld_cli.dir/Shapes/Circle.cpp.obj"
+  "CMakeFiles/helloworld_cli.dir/Shapes/Line.cpp.obj"
+  "CMakeFiles/helloworld_cli.dir/Shapes/Rectangle.cpp.obj"
+  "CMakeFiles/helloworld_cli.dir/Shapes/Shape.cpp.obj"
   "CMakeFiles/helloworld_cli.dir/main.cpp.obj"
   "helloworld_cli.exe"
   "helloworld_cli.exe.manifest"

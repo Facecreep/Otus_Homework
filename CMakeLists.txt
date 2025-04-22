@@ -9,8 +9,8 @@ option(WITH_BOOST_TEST "Whether to build Boost test" ON)
 
 configure_file(version.h.in version.h)
 
-add_executable(helloworld_cli main.cpp)
-add_library(helloworld lib.cpp)
+add_executable(helloworld_cli main.cpp FileHandler.cpp FileHandler.h Shapes/Shape.cpp Shapes/Shape.h Shapes/Line.cpp Shapes/Line.h Shapes/Rectangle.cpp Shapes/Rectangle.h Shapes/Circle.cpp Shapes/Circle.h Canvas.cpp Canvas.h Shapes/Shapes.h)
+add_library(helloworld lib.cpp FileHandler.cpp FileHandler.h Shapes/Shape.cpp Shapes/Shape.h Shapes/Line.cpp Shapes/Line.h Shapes/Rectangle.cpp Shapes/Rectangle.h Shapes/Circle.cpp Shapes/Circle.h Canvas.cpp Canvas.h Shapes/Shapes.h)
 
 set_target_properties(helloworld_cli helloworld PROPERTIES
     CXX_STANDARD 14
@@ -27,7 +27,7 @@ target_link_libraries(helloworld_cli PRIVATE
 
 if(WITH_BOOST_TEST)
     find_package(Boost COMPONENTS unit_test_framework REQUIRED)
-    add_executable(test_version test_version.cpp)
+    add_executable(test_version test_version.cpp FileHandler.cpp FileHandler.h Shapes/Shape.cpp Shapes/Shape.h Shapes/Line.cpp Shapes/Line.h Shapes/Rectangle.cpp Shapes/Rectangle.h Shapes/Circle.cpp Shapes/Circle.h Canvas.cpp Canvas.h Shapes/Shapes.h)
 
     set_target_properties(test_version PROPERTIES
         CXX_STANDARD 14

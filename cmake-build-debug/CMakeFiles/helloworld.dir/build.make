@@ -70,17 +70,113 @@ CMakeFiles/helloworld.dir/lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/lib.cpp.s"
 	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\lib.cpp -o CMakeFiles\helloworld.dir\lib.cpp.s
 
+CMakeFiles/helloworld.dir/FileHandler.cpp.obj: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/FileHandler.cpp.obj: CMakeFiles/helloworld.dir/includes_CXX.rsp
+CMakeFiles/helloworld.dir/FileHandler.cpp.obj: ../FileHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/helloworld.dir/FileHandler.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\FileHandler.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\FileHandler.cpp
+
+CMakeFiles/helloworld.dir/FileHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/FileHandler.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\FileHandler.cpp > CMakeFiles\helloworld.dir\FileHandler.cpp.i
+
+CMakeFiles/helloworld.dir/FileHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/FileHandler.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\FileHandler.cpp -o CMakeFiles\helloworld.dir\FileHandler.cpp.s
+
+CMakeFiles/helloworld.dir/Shapes/Shape.cpp.obj: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/Shapes/Shape.cpp.obj: CMakeFiles/helloworld.dir/includes_CXX.rsp
+CMakeFiles/helloworld.dir/Shapes/Shape.cpp.obj: ../Shapes/Shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/helloworld.dir/Shapes/Shape.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\Shapes\Shape.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\Shapes\Shape.cpp
+
+CMakeFiles/helloworld.dir/Shapes/Shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/Shapes/Shape.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\Shapes\Shape.cpp > CMakeFiles\helloworld.dir\Shapes\Shape.cpp.i
+
+CMakeFiles/helloworld.dir/Shapes/Shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/Shapes/Shape.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\Shapes\Shape.cpp -o CMakeFiles\helloworld.dir\Shapes\Shape.cpp.s
+
+CMakeFiles/helloworld.dir/Shapes/Line.cpp.obj: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/Shapes/Line.cpp.obj: CMakeFiles/helloworld.dir/includes_CXX.rsp
+CMakeFiles/helloworld.dir/Shapes/Line.cpp.obj: ../Shapes/Line.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/helloworld.dir/Shapes/Line.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\Shapes\Line.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\Shapes\Line.cpp
+
+CMakeFiles/helloworld.dir/Shapes/Line.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/Shapes/Line.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\Shapes\Line.cpp > CMakeFiles\helloworld.dir\Shapes\Line.cpp.i
+
+CMakeFiles/helloworld.dir/Shapes/Line.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/Shapes/Line.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\Shapes\Line.cpp -o CMakeFiles\helloworld.dir\Shapes\Line.cpp.s
+
+CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.obj: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.obj: CMakeFiles/helloworld.dir/includes_CXX.rsp
+CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.obj: ../Shapes/Rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\Shapes\Rectangle.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\Shapes\Rectangle.cpp
+
+CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\Shapes\Rectangle.cpp > CMakeFiles\helloworld.dir\Shapes\Rectangle.cpp.i
+
+CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\Shapes\Rectangle.cpp -o CMakeFiles\helloworld.dir\Shapes\Rectangle.cpp.s
+
+CMakeFiles/helloworld.dir/Shapes/Circle.cpp.obj: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/Shapes/Circle.cpp.obj: CMakeFiles/helloworld.dir/includes_CXX.rsp
+CMakeFiles/helloworld.dir/Shapes/Circle.cpp.obj: ../Shapes/Circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/helloworld.dir/Shapes/Circle.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\Shapes\Circle.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\Shapes\Circle.cpp
+
+CMakeFiles/helloworld.dir/Shapes/Circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/Shapes/Circle.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\Shapes\Circle.cpp > CMakeFiles\helloworld.dir\Shapes\Circle.cpp.i
+
+CMakeFiles/helloworld.dir/Shapes/Circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/Shapes/Circle.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\Shapes\Circle.cpp -o CMakeFiles\helloworld.dir\Shapes\Circle.cpp.s
+
+CMakeFiles/helloworld.dir/Canvas.cpp.obj: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/Canvas.cpp.obj: CMakeFiles/helloworld.dir/includes_CXX.rsp
+CMakeFiles/helloworld.dir/Canvas.cpp.obj: ../Canvas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/helloworld.dir/Canvas.cpp.obj"
+	C:\Apps\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\helloworld.dir\Canvas.cpp.obj -c C:\Users\Faceecreep\Otus_Homework\Canvas.cpp
+
+CMakeFiles/helloworld.dir/Canvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/Canvas.cpp.i"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Faceecreep\Otus_Homework\Canvas.cpp > CMakeFiles\helloworld.dir\Canvas.cpp.i
+
+CMakeFiles/helloworld.dir/Canvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/Canvas.cpp.s"
+	C:\Apps\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Faceecreep\Otus_Homework\Canvas.cpp -o CMakeFiles\helloworld.dir\Canvas.cpp.s
+
 # Object files for target helloworld
 helloworld_OBJECTS = \
-"CMakeFiles/helloworld.dir/lib.cpp.obj"
+"CMakeFiles/helloworld.dir/lib.cpp.obj" \
+"CMakeFiles/helloworld.dir/FileHandler.cpp.obj" \
+"CMakeFiles/helloworld.dir/Shapes/Shape.cpp.obj" \
+"CMakeFiles/helloworld.dir/Shapes/Line.cpp.obj" \
+"CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.obj" \
+"CMakeFiles/helloworld.dir/Shapes/Circle.cpp.obj" \
+"CMakeFiles/helloworld.dir/Canvas.cpp.obj"
 
 # External object files for target helloworld
 helloworld_EXTERNAL_OBJECTS =
 
 libhelloworld.a: CMakeFiles/helloworld.dir/lib.cpp.obj
+libhelloworld.a: CMakeFiles/helloworld.dir/FileHandler.cpp.obj
+libhelloworld.a: CMakeFiles/helloworld.dir/Shapes/Shape.cpp.obj
+libhelloworld.a: CMakeFiles/helloworld.dir/Shapes/Line.cpp.obj
+libhelloworld.a: CMakeFiles/helloworld.dir/Shapes/Rectangle.cpp.obj
+libhelloworld.a: CMakeFiles/helloworld.dir/Shapes/Circle.cpp.obj
+libhelloworld.a: CMakeFiles/helloworld.dir/Canvas.cpp.obj
 libhelloworld.a: CMakeFiles/helloworld.dir/build.make
 libhelloworld.a: CMakeFiles/helloworld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libhelloworld.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Faceecreep\Otus_Homework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libhelloworld.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\helloworld.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\helloworld.dir\link.txt --verbose=$(VERBOSE)
 
