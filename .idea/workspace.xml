@@ -32,33 +32,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbcc97ff-5d1a-417e-9bba-1b7cbd85789f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BulkHandler.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BulkHandler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OutputHandler.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OutputHandler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_version.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/helloworld.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/helloworld.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BulkHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/BulkHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloworld_cli.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/helloworld_cli.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/helloworld_cli.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libhelloworld.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libhelloworld.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,42 +132,42 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1653" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1744908405842" />
-    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1744914695629">
+    <state width="914" height="280" key="GridCell.Tab.0.bottom" timestamp="1745349266944">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1744914695629" />
+    <state width="914" height="280" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1745349266944" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744390802261" />
-    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1744914695629">
+    <state width="914" height="280" key="GridCell.Tab.0.center" timestamp="1745349266944">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1744914695629" />
+    <state width="914" height="280" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1745349266944" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744390802261" />
-    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1744914695629">
+    <state width="914" height="280" key="GridCell.Tab.0.left" timestamp="1745349266944">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1744914695629" />
+    <state width="914" height="280" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1745349266944" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744390802261" />
-    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1744914695629">
+    <state width="914" height="280" key="GridCell.Tab.0.right" timestamp="1745349266944">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1744914695629" />
+    <state width="914" height="280" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1745349266944" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1744390802261" />
-    <state width="914" height="344" key="GridCell.Tab.1.bottom" timestamp="1744914445520">
+    <state width="914" height="346" key="GridCell.Tab.1.bottom" timestamp="1745349115806">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="344" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1744914445520" />
-    <state width="914" height="344" key="GridCell.Tab.1.center" timestamp="1744914445520">
+    <state width="914" height="346" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1745349115806" />
+    <state width="914" height="346" key="GridCell.Tab.1.center" timestamp="1745349115806">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="344" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1744914445520" />
-    <state width="914" height="344" key="GridCell.Tab.1.left" timestamp="1744914445520">
+    <state width="914" height="346" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1745349115806" />
+    <state width="914" height="346" key="GridCell.Tab.1.left" timestamp="1745349115806">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="344" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1744914445520" />
-    <state width="914" height="344" key="GridCell.Tab.1.right" timestamp="1744914445520">
+    <state width="914" height="346" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1745349115806" />
+    <state width="914" height="346" key="GridCell.Tab.1.right" timestamp="1745349115806">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="344" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1744914445520" />
+    <state width="914" height="346" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1745349115806" />
     <state x="-1624" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1744911756526">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

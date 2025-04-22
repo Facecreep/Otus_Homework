@@ -17,6 +17,7 @@ public:
     ~BulkHandler();
 
     void add_to_bulk(const std::string &string);
+    void force_end_bulk();
 
 private:
     size_t bulk_size;

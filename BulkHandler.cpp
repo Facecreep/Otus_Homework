@@ -66,5 +66,9 @@ void BulkHandler::end_bulk() {
     bulk_container.clear();
 }
 
+void BulkHandler::force_end_bulk() {
+    end_bulk();
+}
+
 
 

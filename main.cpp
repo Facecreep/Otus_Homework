@@ -19,8 +19,10 @@ int main(int argc, char **argv) {
 
         std::cin >> command;
 
-        if(command == "eof")
+        if(command == "eof"){
+            bulkHandler.force_end_bulk();
             break;
+        }
 
         bulkHandler.add_to_bulk(command);
     }
