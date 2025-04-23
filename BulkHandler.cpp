@@ -59,7 +59,7 @@ void BulkHandler::end_bulk() {
     if(bulk_container.empty())
         return;
 
-    OutputHandler::output_to_file(std::to_string(start_time), bulk_container);
+    OutputHandler::output_list(std::to_string(start_time), bulk_container);
 
     bulk_container.clear();
 }

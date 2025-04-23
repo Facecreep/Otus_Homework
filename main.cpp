@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "async.h"
+#include "cmake-build-debug/libasync.dll"
 
 int main(int, char *[]) {
     std::size_t bulk = 5;
