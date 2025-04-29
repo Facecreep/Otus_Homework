@@ -27,7 +27,7 @@ private:
     bool is_in_dynamic_bulk;
     int dynamic_bulk_depth{};
 
-    int start_time{};
+    size_t start_time{};
 
     std::vector<std::string> bulk_container;
 
