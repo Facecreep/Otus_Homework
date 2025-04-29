@@ -4,8 +4,6 @@
 
 #include "OutputHandler.h"
 
-bool OutputHandler::is_output_to_first_file = true;
-
 void OutputHandler::output_list(const std::string &file_name, const std::vector<std::string>& output_vector) {
     auto log = std::async(std::launch::async,
                                 output_to_console,
@@ -45,8 +43,8 @@ void OutputHandler::output_to_console(const std::vector<std::string>& output_vec
 }
 
 void OutputHandler::output_to_file(const std::string &file_name, const std::vector<std::string>& output_vector) {
-    std::string new_file_name = file_name;
-    
+    std::string new_file_name = "bulk" + file_name;
+
     while(true){
         std::ifstream ifstream((new_file_name + ".log").c_str());
 
@@ -68,4 +66,19 @@ void OutputHandler::output_to_file(const std::string &file_name, const std::vect
             fstream.write(string.c_str(), sizeof(string.c_str()));
         }
     }
+}
+
+void OutputHandler::update(const std::string &file_name, const std::vector<std::string> &output_vector) {
+    output_list(file_name, output_vector);
+}
+
+OutputHandler::OutputHandler()
+    :is_output_to_first_file(true){
+
+}
+
+OutputHandler &OutputHandler::get_instance() {
+    static OutputHandler instance;
+
+    return instance;
 }

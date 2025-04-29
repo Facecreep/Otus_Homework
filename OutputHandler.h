@@ -14,14 +14,25 @@
 #include <thread>
 #include <mutex>
 
-class OutputHandler {
+#include "Observer.h"
+
+class OutputHandler : public Observer {
 public:
-    static void output_list(const std::string &file_name, const std::vector<std::string>& output_vector);
+    OutputHandler(OutputHandler const&) = delete;
+    void operator=(OutputHandler const&) = delete;
+
+    static OutputHandler& get_instance();
+
+    void update(const std::string &file_name, const std::vector<std::string>& output_vector) override;
+
+private:
+    OutputHandler();
+
+    void output_list(const std::string &file_name, const std::vector<std::string>& output_vector);
     static void output_to_console(const std::vector<std::string>& output_vector);
     static void output_to_file(const std::string &file_name, const std::vector<std::string>& output_vector);
 
-private:
-    static bool is_output_to_first_file;
+    bool is_output_to_first_file;
 };
 
 

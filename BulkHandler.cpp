@@ -59,18 +59,22 @@ void BulkHandler::end_bulk() {
     if(bulk_container.empty())
         return;
 
-    OutputHandler::output_list(std::to_string(start_time), bulk_container);
+    update_observers();
 
     bulk_container.clear();
-}
-
-std::map<std::string, std::vector<std::string>> BulkHandler::get_bulk_map() {
-    return bulk_map;
 }
 
 void BulkHandler::force_end_bulk() {
     end_bulk();
 }
 
+void BulkHandler::update_observers() {
+    for(Observer* observer: observers_list)
+        observer->update(std::to_string(start_time), bulk_container);
+}
+
+void BulkHandler::add_observer(Observer *observer) {
+    observers_list.push_back(observer);
+}
 
 

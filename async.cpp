@@ -1,10 +1,14 @@
 #include "async.h"
 #include "BulkHandler.h"
+#include "OutputHandler.h"
 
 namespace async {
 
 handle_t connect(std::size_t bulk) {
-    return new BulkHandler(bulk);
+    BulkHandler* bulkHandler = new BulkHandler(bulk);
+    bulkHandler->add_observer(&OutputHandler::get_instance());
+
+    return bulkHandler;
 
     return nullptr;
 }

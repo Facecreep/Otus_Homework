@@ -5,7 +5,7 @@ set(PROJECT_VESRION 0.0.${PATCH_VERSION})
 
 project(async VERSION ${PROJECT_VESRION})
 
-add_library(async SHARED BulkHandler.cpp BulkHandler.h OutputHandler.cpp OutputHandler.h async.cpp async.h)
+add_library(async SHARED Observer.h BulkHandler.cpp BulkHandler.h OutputHandler.cpp OutputHandler.h async.cpp async.h)
 add_executable(async_cli main.cpp BulkHandler.cpp BulkHandler.h OutputHandler.cpp OutputHandler.h async.cpp async.h)
 
 set_target_properties(async PROPERTIES

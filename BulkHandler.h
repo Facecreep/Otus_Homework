@@ -6,21 +6,22 @@
 #define HELLOWORLD_BULKHANDLER_H
 
 #include <vector>
+#include <iostream>
 #include <string>
 #include <chrono>
 #include <map>
 
-#include "OutputHandler.h"
+#include "Observer.h"
 
 class BulkHandler {
 public:
-    BulkHandler(int bulk_size);
+    explicit BulkHandler(int bulk_size);
     ~BulkHandler();
 
     void add_to_bulk(const std::string &string);
     void force_end_bulk();
 
-    std::map<std::string, std::vector<std::string>> get_bulk_map();
+    void add_observer(Observer* observer);
 
 private:
     size_t bulk_size;
@@ -28,10 +29,14 @@ private:
     bool is_in_dynamic_bulk;
     int dynamic_bulk_depth;
 
-    int start_time;
+    size_t start_time{};
 
     std::vector<std::string> bulk_container;
     std::map<std::string, std::vector<std::string>> bulk_map;
+
+    std::vector<Observer*> observers_list;
+
+    void update_observers();
 
     void end_bulk();
     void deepen_dynamic_bulk();
