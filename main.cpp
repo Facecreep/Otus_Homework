@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 #include "BulkHandler.h"
+#include "OutputHandler.h"
 
 int main(int argc, char **argv) {
 	if(argc != 2)
@@ -11,8 +12,8 @@ int main(int argc, char **argv) {
 
 	size_t bulk_size = *argv[1] - '0';
 
-    BulkHandler bulkHandler(bulk_size);
-
+    BulkHandler bulk_handler(bulk_size);
+    bulk_handler.add_observer(&OutputHandler::get_instance());
 
     while(true){
         std::string command;
@@ -20,11 +21,11 @@ int main(int argc, char **argv) {
         std::cin >> command;
 
         if(command == "eof"){
-            bulkHandler.force_end_bulk();
+            bulk_handler.force_end_bulk();
             break;
         }
 
-        bulkHandler.add_to_bulk(command);
+        bulk_handler.add_to_bulk(command);
     }
 
 	return 0;

@@ -9,25 +9,31 @@
 #include <string>
 #include <chrono>
 
-#include "OutputHandler.h"
+#include "Observer.h"
 
 class BulkHandler {
 public:
-    BulkHandler(int bulk_size);
+    explicit BulkHandler(int bulk_size);
     ~BulkHandler();
 
     void add_to_bulk(const std::string &string);
     void force_end_bulk();
 
+    void add_observer(Observer* observer);
+
 private:
     size_t bulk_size;
 
     bool is_in_dynamic_bulk;
-    int dynamic_bulk_depth;
+    int dynamic_bulk_depth{};
 
-    int start_time;
+    int start_time{};
 
     std::vector<std::string> bulk_container;
+
+    std::vector<Observer*> observers_list;
+
+    void update_observers();
 
     void end_bulk();
     void deepen_dynamic_bulk();

@@ -9,13 +9,28 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <filesystem>
+#include <future>
+#include <thread>
+#include <mutex>
 
-class OutputHandler {
+#include "Observer.h"
+
+class OutputHandler : public Observer {
 public:
-    static void output_to_file(const std::string &file_name, std::vector<std::string> output_vector);
+    OutputHandler(OutputHandler const&) = delete;
+    void operator=(OutputHandler const&) = delete;
+
+    static OutputHandler& get_instance();
+
+    void update(const std::string &file_name, const std::vector<std::string>& output_vector) override;
 
 private:
+    OutputHandler();
 
+    void output_list(const std::string &file_name, const std::vector<std::string>& output_vector);
+    void output_to_console(const std::vector<std::string>& output_vector);
+    void output_to_file(const std::string &file_name, const std::vector<std::string>& output_vector);
 };
 
 
